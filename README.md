@@ -1,1 +1,9 @@
 # tmpResource
+
+基于cloudsop平台是指使用平台微服务提供的底层功能，比如记录安全日志、操作日志、lincese权限等功能，便于简化开发流程。
+
+后台架构：springboot、spring、mybatis、zenith高斯数据库
+
+web浏览器端发起https请求到web后端，由于后台所有微服务的各种接口会定义在微服务配置文件的app_define.json的pattern中ER、IR接口会注册到平台的总线上，因此请求就可以通过总线服务找到对应的微服务，然后根据引入了平台的bsp包底层封装好实现了请求映射到相应的controller进入对应的方法，走相应的业务逻辑。
+
+微服务之间的接口请求接收层是通过配置yaml文件，根据swagger以及引入codegen自研代码生成插件根据模板自动生成rest接口的请求与接收代码的。
