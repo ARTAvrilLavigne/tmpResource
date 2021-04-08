@@ -4,7 +4,7 @@
 
 ```shell
 # 登录MySQL
-$ mysql -u root -p12345612
+$ mysql -u root -p
 
 # 退出MySQL数据库服务器
 exit;
