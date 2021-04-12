@@ -8,6 +8,6 @@ https://baijiahao.baidu.com/s?id=1641193421543196698&wfr=spider&for=pc
 https://blog.csdn.net/java_green_hand0909/article/details/78602920
 
 
-// 国家及地区数据
-https://github.com/cnbattle/LocList.xml
-https://github.com/xzour/cityData
+
+
+
