@@ -4,3 +4,27 @@ https://blog.csdn.net/weixin_44695125/article/details/103727603
 https://blog.csdn.net/qq_35486871/article/details/80507433
 
 https://www.cnblogs.com/fanerwei222/p/12023314.html
+
+sed -ri 's/^PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i '/^ClientAliveInterval.*/d' /etc/ssh/sshd_config
+sed -i '/^ClientAliveCountMax.*/d' /etc/ssh/sshd_config
+systemctl restart sshd
+
+groupadd -g 2000 ossgroup
+useradd ossadm -d /home/ossadm -s /bin/bash -g ossgroup -u 3001 -m
+usermod -a -G wheel ossadm
+usermod -a -G wheel ossuser
+
+chage -M 99999 ossuser
+chage -M 99999 ossadm
+
+echo Changeme_123 | passwd --stdin ossadm
+
+sed -i "/pam_faillock.so preauth audit deny=3 even_deny_root unlock_time=300/d" /etc/pam.d/password-auth-local
+sed -i "/pam_faillock.so preauth audit deny=3 even_deny_root unlock_time=300/d" /etc/pam.d/system-auth-local
+
+sed -i '/TMOUT=/d' /etc/profile
+sed -i '/HISTSIZE=/d' /etc/profile
+echo "unset TMOUT" >> /etc/profile
+echo "export HISTSIZE=9999" >> /etc/profile
+
