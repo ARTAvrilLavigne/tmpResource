@@ -3,3 +3,29 @@ https://www.cnblogs.com/Naylor/p/13261136.html
 https://www.elastic.co/cn/downloads/past-releases#kibana
 
 https://blog.csdn.net/qq_37958578/article/details/79973265
+
+GET article/_settings
+
+{
+  "article" : {
+    "settings" : {
+      "index" : {
+        "number_of_shards" : "1",
+        "provided_name" : "article",
+        "creation_date" : "1626231960890",
+        "analysis" : {
+          "analyzer" : {
+            "cn_analyzer" : {
+              "type" : "ik_max_word"
+            }
+          }
+        },
+        "number_of_replicas" : "1",
+        "uuid" : "m0pkSxsARNanTO8s_C53uA",
+        "version" : {
+          "created" : "7020199"
+        }
+      }
+    }
+  }
+}
