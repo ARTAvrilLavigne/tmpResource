@@ -4,6 +4,8 @@ https://www.elastic.co/cn/downloads/past-releases#kibana
 
 https://blog.csdn.net/qq_37958578/article/details/79973265
 
+https://blog.csdn.net/hezhixiu/article/details/72236254
+
 GET article/_settings
 
 {
