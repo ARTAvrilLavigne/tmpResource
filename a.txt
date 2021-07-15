@@ -10,6 +10,10 @@ https://blog.csdn.net/hezhixiu/article/details/72236254
 
 https://blog.csdn.net/yyz_1987/article/details/106228599/
 
+https://goproxy.cn/
+
+https://www.fdevops.com/2020/03/22/fix-go-get
+
 GET article/_settings
 
 {
