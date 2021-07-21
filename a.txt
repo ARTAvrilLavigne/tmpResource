@@ -1,41 +1,9 @@
-https://github.com/lycodestore/blog-search
-
-https://www.cnblogs.com/Naylor/p/13261136.html
-
-https://www.elastic.co/cn/downloads/past-releases#kibana
-
-https://blog.csdn.net/qq_37958578/article/details/79973265
-
-https://blog.csdn.net/hezhixiu/article/details/72236254
-
-https://blog.csdn.net/yyz_1987/article/details/106228599/
-
-https://goproxy.cn/
-
-https://www.fdevops.com/2020/03/22/fix-go-get
-
-GET article/_settings
-
-{
-  "article" : {
-    "settings" : {
-      "index" : {
-        "number_of_shards" : "1",
-        "provided_name" : "article",
-        "creation_date" : "1626231960890",
-        "analysis" : {
-          "analyzer" : {
-            "cn_analyzer" : {
-              "type" : "ik_max_word"
-            }
-          }
-        },
-        "number_of_replicas" : "1",
-        "uuid" : "m0pkSxsARNanTO8s_C53uA",
-        "version" : {
-          "created" : "7020199"
-        }
-      }
-    }
-  }
-}
+1.使用root账户登录服务器后台
+2. 执行命令删除NetEcoIPowerSolService服务的定制信息，请注意 如下命令中的版本号 需要根据环境来看
+rm /opt/share/oss/manager/DeployAgent/pubfiles/uniep.resource.NetEco.Product.apps/contents/NetEcoIPowerSolService-21.220.4/pub/auth/common_login_entry.json
+3.依次执行如下命令：
+rm -rf /opt/share/oss/manager/DeployAgent/svcs-pub/NetEco-Product-SMLogLicWebsite-smloglicwebsite
+su ossadm -c "/opt/oss/manager/agent/bin/ipmc_adm -cmd restartapp -app SMLogLicWebsite"
+rm -rf /opt/share/oss/manager/DeployAgent/svcs-pub/NetEco-Product-BasicWebsite-basicwebsite
+su ossadm -c "/opt/oss/manager/agent/bin/ipmc_adm -cmd restartapp -app BasicWebsite"
+4. 刷新登录页面
