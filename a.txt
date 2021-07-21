@@ -1,5 +1,1 @@
-cd /opt/share/oss
-find . -name unisession_extend.json -exec rm -f {} \;
 
-su ossadm -c ". /opt/oss/manager/agent/bin/engr_profile.sh; ipmc_adm -cmd restartapp -app SMLogLicService"
-su ossadm -c ". /opt/oss/manager/agent/bin/engr_profile.sh; ipmc_adm -cmd restartapp -app BasicWebsite"
