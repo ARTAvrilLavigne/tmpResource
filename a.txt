@@ -23,3 +23,21 @@ https://www.cnblogs.com/clwydjgs/p/11898622.html
 
 https://blog.csdn.net/m0_37852904/article/details/103007259
 
+		<script>
+			alert("xxxx");
+			// ati-dir
+			let vv = "/download/admin";
+		
+			
+			// add-task-btn
+			function test2(){
+				alert("243545");
+				document.getElementById('ati-dir').value=vv	;
+			};
+			
+		</script>
+    
+    
+    				<a class="btn" id="add-task-btn" data-toggle="modal" href="#add-task-modal" title="添加任务" onclick="test2()">
+							<i class="icon-plus"></i> 添加
+						</a>
