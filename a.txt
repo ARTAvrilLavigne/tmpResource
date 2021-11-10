@@ -15,35 +15,7 @@ https://www.cnblogs.com/frytea/p/13411527.html
 https://www.daniao.org/13249.html
 
 =======================================================
-https://blog.csdn.net/quan278905570/article/details/107108163
+https://www.orcy.net.cn/1241.html
 
-https://www.jianshu.com/p/4392168d41fd
+https://www.lucktang.com/2559.html
 
-https://www.cnblogs.com/clwydjgs/p/11898622.html
-
-https://blog.csdn.net/m0_37852904/article/details/103007259
-
-		<script>
-			alert("xxxx");
-			// ati-dir
-			let vv = "/download/admin";
-		
-			
-			// add-task-btn
-			function test2(){
-				alert("243545");
-				document.getElementById('ati-dir').value=vv	;
-			};
-			
-		</script>
-    
-    
-    		<a class="btn" id="add-task-btn" data-toggle="modal" href="#add-task-modal" title="添加任务" onclick="test2()">
-			<i class="icon-plus"></i> 添加
-		</a>
-						
-						
-		<label class="control-label" for="ati-dir">保存位置</label>
-		<div class="controls">
-			<input id="ati-dir" class="input-xlarge" name="dir" value="/opt" disabled="disabled" />
-		</div>
