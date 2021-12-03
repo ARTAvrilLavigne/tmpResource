@@ -8,10 +8,4 @@ https://node.kg.qq.com/personal?uid=6a9b9e842324318e&appsource=&stay=1
 https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0&inCharset=GB2312&outCharset=utf-8&format=&g_tk=5381&g_tk_openkey=719182536&nocache=0.8706501019187272&share_uid=6a9b9e842324318e&type=get_uinfo&_=1551533068931&num=15&start=1
 
 =================================================
-在之前接触了测试相关的内容之后，觉得测试的普适性很好，有了一套完善的测试体系之后，可以测试不同的系统；
-而且测试的技能更新迭代相对开发较慢，所以觉得测试比较适合长期发展；
-我自己的一些开发技能，比如Java语言、SQL、Linux的操作也会对测试工作有帮助，比如写测试脚本的时候。
-测试的前景也不错，现在软件产品多了，质量就显得尤为重要，尤其现在大公司都更注重产品质量了。
-所以我选择测试开发
-
 
