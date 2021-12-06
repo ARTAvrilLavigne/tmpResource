@@ -8,8 +8,3 @@ https://node.kg.qq.com/personal?uid=6a9b9e842324318e&appsource=&stay=1
 https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0&inCharset=GB2312&outCharset=utf-8&format=&g_tk=5381&g_tk_openkey=719182536&nocache=0.8706501019187272&share_uid=6a9b9e842324318e&type=get_uinfo&_=1551533068931&num=15&start=1
 
 =================================================
-springboot自动配置原理？
-springboot启动通过main方法中调用SpringbootApplication.run方法启动，使用@SpringBootApplication注解，分为三个部分：
---1.@SpringBootConfiguration  标注当前类是配置类，将类中bean注解标记的方法实例纳入到spring容器中
---2.@ComponentScan    组件扫描，可自动发现和装配bean
---3.@EnableAutoConfiguration   核心注解：根据声明的依赖对spring框架进行自动配置
