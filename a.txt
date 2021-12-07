@@ -8,3 +8,22 @@ https://node.kg.qq.com/personal?uid=6a9b9e842324318e&appsource=&stay=1
 https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0&inCharset=GB2312&outCharset=utf-8&format=&g_tk=5381&g_tk_openkey=719182536&nocache=0.8706501019187272&share_uid=6a9b9e842324318e&type=get_uinfo&_=1551533068931&num=15&start=1
 
 =================================================
+4、什么是反射？
+对于任意一个类，动态调用这个类的所有属性和方法；
+
+5、docker?
+打包应用以及依赖包到容器中，然后发布到Linux机器上
+
+6、docker与虚拟机的区别？
+虚拟机是通过模拟硬件，并在硬件上安装操作系统来实现
+
+7、一个完整的Docker有以下几个部分组成：
+dockerClient客户端
+Docker Daemon守护进程
+Docker Image镜像
+DockerContainer容器
+
+8、spring security：用于认证和授权，核心就是一组过滤器链
+
+9、docker打包流程？
+将项目打包、编写dockerfile文件、制止镜像、启动容器
