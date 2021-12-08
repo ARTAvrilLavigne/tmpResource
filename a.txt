@@ -9,3 +9,11 @@ https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0
 
 =================================================
 
+mysql优化：硬件方向、软件方向：使用索引、使用存储过程、分库分表、避免索引失效
+
+缓存穿透：将空数据存入缓存
+缓存击穿：加锁使得只有一个线程能查询数据库，并更新缓存
+缓存雪崩：设置缓存随机过期时间
+
+springcloud五大核心组件：Eureka实现服务注册与发现、ribbon提供负载均衡、Hystrix熔断器保护、zuul作为API网关、
+                         config作用是配置文件管理
