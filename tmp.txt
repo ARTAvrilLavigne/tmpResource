@@ -10,9 +10,3 @@ https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0
 
 =================================================
 
-https://zhuanlan.zhihu.com/p/395609503
-
-https://zhuanlan.zhihu.com/p/395609640
-
-https://www.freesion.com/article/796650272/
-
