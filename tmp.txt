@@ -9,13 +9,22 @@ list:
 https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0&inCharset=GB2312&outCharset=utf-8&format=&g_tk=5381&g_tk_openkey=719182536&nocache=0.8706501019187272&share_uid=6a9b9e842324318e&type=get_uinfo&_=1551533068931&num=15&start=1
 
 =================================================
-
-NodeJs及vue环境搭建及配置：只需要参考第一步到第六步
+前端：
+1、NodeJs及vue环境搭建及配置：(安装包见附件)
+注意：(只需要按照第一步到第六步操作即可)
 https://www.cnblogs.com/zhaomeizi/p/8483597.html
 
-mysql5.7版本安装
-注意：(第9步中)配置root账户的密码设置为root，保持与后端工程项目配置数据库账户密码一致，否则运行会报错
-https://zhuanlan.zhihu.com/p/330332390
+2、vscode开发工具安装：(安装包见附件)
+https://blog.csdn.net/weixin_58068749/article/details/123635089
 
-vscode下载安装包：
-https://code.visualstudio.com/Download
+3、vscode安装常用的vue插件：
+https://blog.csdn.net/u010227042/article/details/119831552
+
+
+后端：
+1、mysql5.7版本安装:(安装包见附件)
+https://zhuanlan.zhihu.com/p/330332390
+注意：(第9步中)配置root账户的密码设置为root，保持与后端工程项目配置数据库账户密码一致，否则运行会报错
+
+2、java8安装及环境配置：(安装包见附件)
+https://blog.csdn.net/JunLeon/article/details/122623465
