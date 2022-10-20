@@ -10,6 +10,7 @@ https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0
 
 =================================================
 
-
+NodeJs及vue环境搭建及配置：只需要参考第一步到第六步
+https://www.cnblogs.com/zhaomeizi/p/8483597.html
 
 
