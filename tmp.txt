@@ -13,4 +13,9 @@ https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0
 NodeJs及vue环境搭建及配置：只需要参考第一步到第六步
 https://www.cnblogs.com/zhaomeizi/p/8483597.html
 
+mysql5.7版本安装
+注意：(第9步中)配置root账户的密码设置为root，保持与后端工程项目配置数据库账户密码一致，否则运行会报错
+https://zhuanlan.zhihu.com/p/330332390
 
+vscode下载安装包：
+https://code.visualstudio.com/Download
