@@ -9,4 +9,7 @@ list:
 https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0&inCharset=GB2312&outCharset=utf-8&format=&g_tk=5381&g_tk_openkey=719182536&nocache=0.8706501019187272&share_uid=6a9b9e842324318e&type=get_uinfo&_=1551533068931&num=15&start=1
 
 =================================================
-
+cmd进入登录数据库：
+mysql -uroot -proot
+执行sql文件创建数据库及表：
+source <C:\Users\xxxx\Desktop\test.sql 
