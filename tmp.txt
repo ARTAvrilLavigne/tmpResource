@@ -10,3 +10,7 @@ https://node.kg.qq.com/cgi/fcgi-bin/kg_ugc_get_homepage?jsonpCallback=callback_0
 
 =================================================
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=zh-cn#console
+
+https://developers.google.com/earth-engine/reference/rest
+
+https://github.com/google/earthengine-api/tree/master/demos/server-auth-nodejs
