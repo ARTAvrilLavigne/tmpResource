@@ -16,3 +16,17 @@ https://developers.google.com/earth-engine/reference/rest
 https://github.com/google/earthengine-api/tree/master/demos/server-auth-nodejs
 
 https://developers.google.com/earth-engine/custom-apps/client-js
+=================================================
+https://blog.csdn.net/junlong750/article/details/113605759
+
+https://blog.csdn.net/u011620268/article/details/97560996
+
+https://blog.csdn.net/weixin_42924891/article/details/85225062
+
+https://confluence.ecmwf.int/display/WEBAPI/Web+API+Downloads
+
+https://blog.csdn.net/jerry003/article/details/128408365
+
+https://cds.climate.copernicus.eu/api-how-to
+
+https://confluence.ecmwf.int/display/CKB/How+to+install+and+use+CDS+API+on+Windows
