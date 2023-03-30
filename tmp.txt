@@ -19,6 +19,7 @@ https://developers.google.com/earth-engine/custom-apps/client-js
 ==================================================
   <el-time-select
     placeholder="起始时间"
+    :clearable="false"
     v-model="startTime"
     :picker-options="{
       start: '00:00',
@@ -29,6 +30,7 @@ https://developers.google.com/earth-engine/custom-apps/client-js
   至：
   <el-time-select
     placeholder="结束时间"
+    :clearable="false"
     v-model="endTime"
     :picker-options="{
       start: '00:00',
