@@ -16,24 +16,30 @@ https://developers.google.com/earth-engine/reference/rest
 https://github.com/google/earthengine-api/tree/master/demos/server-auth-nodejs
 
 https://developers.google.com/earth-engine/custom-apps/client-js
-=================================================
-https://blog.csdn.net/junlong750/article/details/113605759
-
-https://blog.csdn.net/u011620268/article/details/97560996
-
-https://blog.csdn.net/weixin_42924891/article/details/85225062
-
-https://confluence.ecmwf.int/display/WEBAPI/Web+API+Downloads
-
-https://blog.csdn.net/jerry003/article/details/128408365
-
-https://cds.climate.copernicus.eu/api-how-to
-
-https://confluence.ecmwf.int/display/CKB/How+to+install+and+use+CDS+API+on+Windows
 ==================================================
-https://blog.csdn.net/qq_63312957/article/details/125375122
-
-https://blog.csdn.net/qq_37608766/article/details/126578466
-            
+  <el-time-select
+    placeholder="起始时间"
+    v-model="startTime"
+    :picker-options="{
+      start: '00:00',
+      step: '01:00',
+      end: '23:00'
+    }">
+  </el-time-select>
+  至：
+  <el-time-select
+    placeholder="结束时间"
+    v-model="endTime"
+    :picker-options="{
+      start: '00:00',
+      step: '01:00',
+      end: '23:00',
+      minTime: startTime
+    }">
+  </el-time-select>
  
+       return {
+        startTime: '00：00',
+        endTime: '23：00'
+      };
  
