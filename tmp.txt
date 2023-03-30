@@ -45,3 +45,14 @@ https://developers.google.com/earth-engine/custom-apps/client-js
         endTime: '23：00'
       };
  
+
+
+
+            for (int i = 0; i <24 ; i++) {
+                if(i<10){
+                    System.out.println(sdf.format(date)+" 0"+i+":00:00");
+                }else {
+                    System.out.println(sdf.format(date)+" "+i+":00:00");
+                }
+ 
+            }
